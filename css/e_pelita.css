@@ -17,7 +17,7 @@ html, body {
 }
 
 header nav {
-	background: var(--bg-color);
+	background: linear-gradient(to right, var(--bg) 20%, var(--bg-color));
 	position: fixed;
 	top: 0;
 	width: 100vw;
@@ -193,6 +193,7 @@ section.content .list {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+	box-shadow: 0px 0px 18px white;
 }
 
 section.content .list:hover{
@@ -245,6 +246,7 @@ section.content .list p {
 	width: 400px;
 	margin: 15px;
 	border-radius: 1rem;
+	box-shadow: 0px 0px 18px white;
 }
 
 footer {
